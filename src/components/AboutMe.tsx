@@ -10,7 +10,6 @@ import MyTechnologies from "./MyTechnologies";
 const AboutMe = () => {
     return (
         <section id="home" className="bg-[#080808] text-white pb-[3rem] lg:pb-[3rem] ">
-          
           <div className="flex flex-col justify-center p-[2rem] md:flex-row lg:flex-row md:pt-[5rem] md:pl-[7rem] 
             lg:pt-[5rem] text-base lg:text-base  ">
 

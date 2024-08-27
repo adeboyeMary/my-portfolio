@@ -13,7 +13,7 @@ const Header = () => {
     };
 
     return ( 
-        <div className="bg-black sticky top-0 z-10">
+        <div className="bg-black sticky top-0 z-10 w-full">
             <div className="hidden lg:flex w-[90%] bg-[#1B1B1B] text-[#9C9C9C] m-auto justify-between py-3 px-14 
             ">
                 <a href="#home"><button>Home</button></a>

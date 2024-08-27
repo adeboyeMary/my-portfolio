@@ -23,7 +23,7 @@ export default function Home() {
           <Stacks />
           <MoreProjects />
           <ContactMe />
-          <AboutMeCarousel />
+          {/* <AboutMeCarousel /> */}
         </main>
         <Footer />
       </div>
