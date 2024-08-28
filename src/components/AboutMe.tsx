@@ -9,7 +9,7 @@ import MyTechnologies from "./MyTechnologies";
 
 const AboutMe = () => {
     return (
-        <section id="home" className="bg-[#080808] text-white pb-[3rem] lg:pb-[3rem] ">
+        <section id="home" className="bg-[#080808] text-white pt-[4.2rem] pb-[3rem] lg:pb-[3rem] ">
           <div className="flex flex-col justify-center p-[2rem] md:flex-row lg:flex-row md:pt-[5rem] md:pl-[7rem] 
             lg:pt-[5rem] text-base lg:text-base  ">
 
@@ -32,7 +32,8 @@ const AboutMe = () => {
 
             {/* Profile pic for larger screens */}
             <div className="w-[50%] h-[50%] hidden md:block lg:block  ">
-              <Image src={mary} alt="mary" width={500} height={300} className="h-[58%] w-[58%] object-contain m-auto " />
+              <Image src={mary} alt="mary" width={500} height={300} className="h-[58%] w-[58%] object-contain m-auto
+              hover:animate-out " />
             </div>
           </div>
 

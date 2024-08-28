@@ -9,7 +9,7 @@ import screen from "../assets/svg/screen.svg";
 
 const MyProjects = () => {
     return (
-        <section id="projects" className="bg-white pt-[3rem] my-5 md:text-base">
+        <section id="projects" className="bg-white pt-[4.2rem] pb-[3rem] md:text-base">
           <h1 className="text-4xl text-center font-bold">Projects</h1>
           <p className="text-sm text-center pt-3 pb-8">Here are some of the projects I have worked on.</p>
           

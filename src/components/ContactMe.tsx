@@ -3,7 +3,7 @@ import { ChevronRight } from "lucide-react";
 const ContactMe = () => {
     return (
         <section id="contact" className="min-h-screen bg-[#080808] text-[#808080] text-base md:text-sm lg:text-sm
-        py-[3rem]">
+        pt-[4.2rem] pb-[3rem]">
           <h1 className="text-4xl text-white text-center font-bold">Get In Touch</h1>
           <p className=" text-center pt-4 lg:w-[39%] m-auto">Excited to collaborate? Lets make something amazing together! 
             Reach out through the form below.

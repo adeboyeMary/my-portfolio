@@ -12,7 +12,7 @@ import figma from "../assets/svg/figma.svg";
 
 const Stacks = () => {
   return (
-    <section id="stacks" className="bg-black text-white py-[3rem]">
+    <section id="stacks" className="bg-black text-white pt-[4.2rem] pb-[3rem] ">
       <div className="w-[81%] lg:w-[79%] m-auto ">
         <h1 className="text-4xl text-center font-bold">My Expertise</h1>
         <div className="flex m-auto gap-4 lg:gap-2 py-4 overflow-x-auto whitespace-nowrap lg:whitespace-normal">
@@ -41,7 +41,7 @@ const Stacks = () => {
             <Image src={nodejs} alt="nodejs" width={500} height={300} className="w-[24%] lg:w-[8.5%] m-auto
             inline-block py-[8px] px-[26px] border-[1px] border-[#1B1B1B] rounded-md" />
         </div>
-        <div className="w-[100%] lg:w-[40%] m-auto pt-3">
+        <div className="w-[100%] lg:w-[40%] m-auto pt-10">
           <h1 className="text-3xl text-center font-bold pb-3">What I Offer</h1>
           <ul className=" m-auto list-disc ">
             <li>I am passionate about hig-quality work</li>
