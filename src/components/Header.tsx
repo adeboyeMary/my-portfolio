@@ -1,9 +1,10 @@
 "useClient";
 import Image from "next/image";
 import { useState } from "react";
-// import lucide
 
-import menu from "../assets/svg/menu.svg";
+import { Menu } from "lucide-react";
+// import menu from "../assets/svg/menu.svg";
+
 
 
 const Header = () => {
@@ -29,14 +30,14 @@ const Header = () => {
                     <a href="#contact" className=""><button>Contact me</button></a>
                 </div>
             </div>
-            <button onClick={onClickHandler} className='lg:hidden  pl-3 w-[19%]'>
-                <Image src={menu} alt="menu" width={500} height={300} className=" " />
-                
+            <button onClick={onClickHandler} className='lg:hidden  pl-3 py-3'>
+                {/* <Image src={menu} alt="menu" width={500} height={300} className="color-white" /> */}
+                <Menu size={44} color="#ffffff" strokeWidth={2.25} />
             </button>
 
             <div className={`lg:hidden fixed top-0 left-0 bg-[#ffffff] w-[70%] h-[70vh] z-50 transform 
                 ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform`}>
-                    <button onClick={onClickHandler} className='text-5xl text-[#FF2A63]'> &times; </button>
+                    <button onClick={onClickHandler} className='text-5xl text-[#3F8E00]'> &times; </button>
 
                     <ul className='cursor-pointer text-[18px] sm:text-[28px] md:text-base lg:text-[18px] '>
                         <a href="#home">
