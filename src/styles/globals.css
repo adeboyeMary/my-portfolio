@@ -105,3 +105,50 @@
 .moveFromLeftToMiddle{
   animation: moveFromRightToMiddle 1s ease-in-out forwards;
 }
+
+@keyframes wiggle {
+  0% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(-2deg); }
+}
+.wiggleButton {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.wiggleButton:hover {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+
+/* without hover */
+@keyframes wiggle {
+  0% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(-2deg); }
+}
+.wiggle-button {
+  animation: wiggle 0.9s infinite;
+  cursor: pointer;
+}
+
+
+/* for timed wiggling */
+/* @keyframes wiggle {
+  0% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(-2deg); }
+}
+.wiggle-button {
+  animation: wiggle 0.5s infinite;
+  animation-delay: 0s;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+@keyframes wiggle-cycle {
+  0% { animation-play-state: running; }
+  50% { animation-play-state: paused; }
+  100% { animation-play-state: running;}
+}
+.wiggle-cycle {
+  animation: wiggle-cycle 10s infinite;
+} */

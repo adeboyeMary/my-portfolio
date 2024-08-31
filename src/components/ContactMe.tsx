@@ -8,7 +8,7 @@ const ContactMe = () => {
           <p className=" text-center pt-4 lg:w-[39%] m-auto">Excited to collaborate? Lets make something amazing together! 
             Reach out through the form below.
           </p>
-          <form className="w-[86%] lg:w-[70%] m-auto pt-[2rem]">
+          <form className="w-[86%] lg:w-[100%] xl:w-[70%] m-auto pt-[2rem]">
             <div className="flex flex-col gap-2 mb-5 lg:w-[45%] m-auto ">
               <label htmlFor="email" className="text-sm font-bold text-white">Email</label>
               <input type="email" id="email" name="email" className="py-1.2  rounded-md p-3 justify-center 
